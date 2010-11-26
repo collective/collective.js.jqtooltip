@@ -16,10 +16,10 @@
         for="Products.CMFPlone.interfaces.IPloneSiteRoot" />
     
     <browser:resource
-       name="jquery.tooltip.js"
+       name="jquery.tooltip.min.js"
        file="jquery.tooltip.min.js" />
      <browser:resource
-       name="jquery.dimensions.js"
+       name="jquery.dimensions.min.js"
        file="jquery.dimensions.min.js" />
 </configure>
 
