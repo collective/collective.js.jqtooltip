@@ -18,8 +18,5 @@
     <browser:resource
        name="jquery.tooltip.min.js"
        file="jquery.tooltip.min.js" />
-     <browser:resource
-       name="jquery.dimensions.min.js"
-       file="jquery.dimensions.min.js" />
 </configure>
 
