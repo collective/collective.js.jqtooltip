@@ -1,13 +1,14 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = open('collective/js/jqtooltip/version.txt').read().strip()
+maintainer = 'Timon Tschanz'
 
 setup(name='collective.js.jqtooltip',
       version=version,
       description="This Package allows you to use jquery.tooltip",
       long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open(os.path.join("docs", "History.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python"
@@ -21,9 +22,8 @@ setup(name='collective.js.jqtooltip',
       namespace_packages=['collective', 'collective.js'],
       include_package_data=True,
       zip_safe=False,
-      install_requires=['setuptools',
-                        'ftw.utilities',
-                        'archetypes.schemaextender',
+      install_requires=[
+      'setuptools',
       ],
       entry_points="""
       # -*- Entry points: -*-
