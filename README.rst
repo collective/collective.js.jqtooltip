@@ -28,4 +28,10 @@ Links
 - jQuery tooltip homepage: http://bassistance.de/jquery-plugins/jquery-plugin-tooltip
 
 
+Maintainer
+==========
+
+This package is produced and maintained by `4teamwork <http://www.4teamwork.ch/>`_ company.
+
+
 .. _jQuery tooltip: http://bassistance.de/jquery-plugins/jquery-plugin-tooltip
