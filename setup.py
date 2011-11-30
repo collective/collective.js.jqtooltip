@@ -7,7 +7,7 @@ maintainer = 'Timon Tschanz'
 setup(name='collective.js.jqtooltip',
       version=version,
       description='This package allows you to use jquery.tooltip in plone.',
-      long_description=open('README.txt').read() + '\n' + \
+      long_description=open('README.rst').read() + '\n' + \
           open(os.path.join('docs', 'History.txt')).read(),
 
       # Get more strings from
